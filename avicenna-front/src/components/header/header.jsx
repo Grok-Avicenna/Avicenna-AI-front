@@ -4,7 +4,7 @@ import callback from '../../assets/callback.svg'
 
 function HeaderComponent() {
     return (
-        <header className="w-full text-[16px] bg-blue-600">
+        <header className="w-full text-[16px] ">
             <div className="flex flex-row justify-around items-center text-white pt-12">
                 <div className='flex items-center '>
                     <img className='mr-[5px]' src={logo} alt="" />

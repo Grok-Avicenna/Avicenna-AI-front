@@ -1,0 +1,17 @@
+.firstPage{
+    background-image: url('../../assets/first-page.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.secondPage{
+    background-image: url('../../assets/stomatolog.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-wrapper{
+    width: 100%;
+    height: 650px;
+    background-image: url('../../assets/bg.svg');
+}
