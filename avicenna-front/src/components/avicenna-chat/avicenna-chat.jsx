@@ -80,7 +80,7 @@ function AvicennaAI() {
             </header>
             <aside className="w-[20%] h-screen fixed top-0 left-0 bg-aside">
                 <NavLink to={'/'}>
-                    <img src={arrow} alt="" className='w-[40px] mb-3 mt-[38px] ml-4' />
+                    <img src={arrow} alt="" className='w-[40px] mb-3 mt-[39px] ml-4' />
                 </NavLink>
                 <div className="flex flex-col gap-4">
                     {firstAIMessage && (
@@ -127,7 +127,7 @@ function AvicennaAI() {
             <footer className="fixed bottom-0 right-0 w-[80%] h-[90px] bg-white">
                 <div className="flex flex-row items-center justify-center gap-[30px] mt-[20px]">
                     <img className="w-[50px]" src={plusIcon} alt="" />
-                    <input onChange={e => setText(e.target.value)} value={text} type="text" className='pl-3' />
+                    <input onChange={e => setText(e.target.value)} value={text} type="text" className='pl-3 input_chat' />
                     <button onClick={() => aiRun()} className="send-btn"></button>
                 </div>
             </footer>
