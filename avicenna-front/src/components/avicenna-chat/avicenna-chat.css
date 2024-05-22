@@ -1,0 +1,21 @@
+.bg-aside{
+    background-image: url('../../assets/first-page.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.send-btn{
+    width: 40px;
+    height: 40px;
+    background-image: url('../../assets/sendIcon.svg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+input{
+    width: 900px;
+    height: 50px;
+    border-radius: 40px;
+    background: #DAEAF7;
+    font-size: 16px;
+}

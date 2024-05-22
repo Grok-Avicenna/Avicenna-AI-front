@@ -95,7 +95,7 @@ export default function Wrapper() {
                         <div className="w-[182px] flex flex-col items-center gap-[16px]">
                             <img src={kingIcon} alt="" className="w-[54px]" />
                             <p>Построите график под себя.</p>
-                        </div>
+                        </div>2
                     </div>
                     <div className="text-[50px] mt-[115px] font-montserrat leading-[4rem] text-center">
                         <span className="text-[#E5B093] uppercase">как</span>
