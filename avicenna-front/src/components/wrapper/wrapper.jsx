@@ -64,9 +64,7 @@ export default function Wrapper() {
                         <p>Сейчас в нашей стране функционируют множество клиник, но не всегда нужный специалист находится в той же части города.</p>
                         <p className="mt-[30px]">
                             Но эту проблему легко решить, если вы решите воспользоваться нашим сайтом, ведь теперь ИИ подберет вам врача на основе вашего вопроса и назначит консультацию с ним в любое удобное время и больше никаких бесконечных очередей и беготни от кабинета к кабинету.</p>
-                        <a href='https://helpmed-system.onrender.com/login'>
-                            <button className="btn-prime w-[90%] h-[80px] text-[14px] mt-[14px]">ПЕРЕЙТИ НА ФОРУМ</button>
-                        </a>
+                        <button className="btn-prime w-[90%] h-[80px] text-[14px] mt-[14px]">ПЕРЕЙТИ НА ФОРУМ</button>
                     </div>
                     <div>
                         <img src={Phone} alt="" />
@@ -152,7 +150,80 @@ export default function Wrapper() {
                         </div>
                     </div>
                 </div>
+                <div className="bg-[#DBDAF7] w-full">
+                    <div className="w-[69%] m-auto">
+                        <div className="text-[50px] pt-[300px] font-montserrat leading-[4rem] m-auto text-center">
+                            <span className="text-[#E5B093]">6 ПРЕИМУЩЕСТВ </span>
+                            <br />
+                            <span className="text-black">AVICENNA AI</span><br />
+                        </div>
+                        <p className="text-[#34343F] font-[20px] w-[600px] mt-4  text-center m-auto">Создали наш сервис для того, чтобы пользователи наслаждались новыми возможностями, а доктора получали удовольствие от сотрудничества. </p>
+                        <p className="font-[20px] text-center text-black font-semibold">Для этого реализовали:</p>
+                        <div className="flex flex-row flex-wrap gap-x-[200px] gap-y-[98px] mt-[50px]">
+                            <div className="text-[black] items-center">
+                                <img src={timeIcon2} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal">Контроль времени</p>
+                                <p className="w-[180px]">Консультации доступны в любое удобное пользователю и врачу время</p>
+                            </div>
+                            <div className="text-[black] items-center">
+                                <img src={desctopIncon} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal">Никакого оффлайн</p>
+                                <p className="w-[180px]">Сэкономит время и средства на дорогу, а также поможет обоим сторонам связаться из любой точки мира</p>
+                            </div>
+                            <div className="text-[black] items-center">
+                                <img src={docIcon} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal">Рейтинг врача</p>
+                                <p className="w-[180px]">Придает спокойствия пациенту, а врачу мотивацию работать лучше</p>
+                            </div>
+                            <div className="text-[black] items-center">
+                                <img src={wallet} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal">Доступные цены</p>
+                                <p className="w-[180px]">Услуги доступные любому пользователю</p>
+                            </div>
+                            <div className="text-[black] items-center">
+                                <img src={traidingIcon} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal w-[250px]">Предварительный диагноз ИИ доктора</p>
+                                <p className="w-[180px]">Сформирует у пользователя представление о его состоянии и подберет подходящего врача
+                                </p>
+                            </div>
+                            <div className="text-[black] items-center">
+                                <img src={groupIcon} className="w-[100px]" alt="" />
+                                <p className="mt-3 text-[22px] font-normal">Форум и отзывы</p>
+                                <p className="w-[180px]">Помогут не только узнать мнение других пользователей о сервисе, но и специалистам получить важные советы друг от друга
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer className=" mt-[200px] bg-[#DFDEF4] border">
+                        <div className="w-[69%] m-auto flex flex-row gap-[200px] text-black mt-20">
+                            <div className="flex flex-col">
+                                <img className="w-[50px] invert" src={logo} alt="" />
+                                <p>Avicenna AI</p>
+                                <div className="flex flex-row items-center gap-3 mt-2">
+                                    <img src={instagram} className="w-[65px]" alt="" />
+                                    <img src={watsap} className="w-[65px]" alt="" />
+                                    <p>Связаться с нами</p>
+                                </div>
+                            </div>
+                            <div className="flex flex-col gap-3">
+                                <p>О НАС</p>
+                                <p>ЦЕНЫ</p>
+                                <p>ЗАБРОНИРОВАТЬ</p>
+                                <p>КОНТАКТЫ</p>
+                            </div>
+                            <div className="flex flex-col gap-3">
+                                <p>AI ДОКТОР</p>
+                                <p>ФОРУМ</p>
+                                <p>СПЕЦИАЛИСТЫ</p>
+                                <p>БАЗА БОЛЕЗНЕЙ</p>
+                            </div>
+                        </div>
+                        <p className="flex justify-center mt-[60px] text-[#A5A5B3] mb-10">Политика конфидециальности</p>
+                    </footer>
+                </div>
             </div>
-        </div>
+
+
+        </div >
     )
 }
