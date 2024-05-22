@@ -73,21 +73,21 @@ function AvicennaAI() {
 
         <div className="w-full h-screen">
             <header className="w-[80%] h-[90px] bg-[#0855B1] fixed top-0 right-0">
-                <div className="flex items-center gap-[29px] ml-[30px] mt-3">
-                    <img src={logo} className="w-[70px]" alt="" />
-                    <p className="text-white text-[25px]">Avicenna AI</p>
+                <div className="flex items-center gap-[29px] ml-[30px] mt-4 ">
+                    <img src={logo} className="w-[50px]" alt="" />
+                    <p className="text-white text-[22px]">Avicenna AI</p>
                 </div>
             </header>
             <aside className="w-[20%] h-screen fixed top-0 left-0 bg-aside">
                 <NavLink to={'/'}>
-                    <img src={arrow} alt="" className='w-[60px] mb-3 mt-4 ml-4' />
+                    <img src={arrow} alt="" className='w-[40px] mb-3 mt-[38px] ml-4' />
                 </NavLink>
                 <div className="flex flex-col gap-4">
                     {firstAIMessage && (
                         <div className="w-full h-[100px] bg-[#0855B1] text-white flex flex-row items-center gap-3">
-                            <img src={logo} className="w-[60px] ml-3 cursor-pointer" alt="" />
+                            <img src={logo} className="w-[50px] ml-3 cursor-pointer" alt="" />
                             <div>
-                                <p className="text-[18px] font-semibold">Avicenna AI</p>
+                                <p className="text-[17px] font-semibold">Avicenna AI</p>
                                 <TruncatedText text={firstAIMessage.message} maxWords={7} />
                             </div>
                         </div>

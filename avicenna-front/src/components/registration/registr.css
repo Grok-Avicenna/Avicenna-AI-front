@@ -1,0 +1,22 @@
+.classBg{
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../assets/registphoto.jpg');
+    background-position: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.input-regist{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;   
+}
+.inp-additional{
+    width: 440px;
+}
