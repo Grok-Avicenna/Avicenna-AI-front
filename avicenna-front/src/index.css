@@ -18,3 +18,13 @@
 input{
     outline: none;
 }
+.rounded-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 60px;
+    background-color: red;
+    margin-top: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
